@@ -1,0 +1,16 @@
+/* Universal Styles */
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+/* Header of the website whith navbar*/
+header {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  color: #399bd1;
+  background-color: inherit;
+}
