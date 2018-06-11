@@ -14,3 +14,44 @@ header {
   color: #399bd1;
   background-color: inherit;
 }
+
+/* Jumbotron section */
+.jumbotron-bike {
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../images/jumbotron-bike.jpg");
+  color: white;
+}
+
+.jumbotron-bike h1 {
+  padding: 11.85rem 0 0 0;
+  font-family: Monoton;
+  font-size: 5.7rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#first-child {
+  max-width: 51.3rem;
+  margin: 0 auto;
+}
+
+.jumbotron-bike p:last-child {
+  margin: 2.8rem 0 11.85rem 0;
+}
+
+.jumbotron-bike a {
+  width: 11.4rem;
+  margin: 0 auto;
+  padding: 1.3rem 0;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron a:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.jumbotron a:active{
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
