@@ -20,6 +20,12 @@ img {
   margin: 0 auto;
 }
 
+strong {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
 /* Header of the website whith navbar*/
 header {
   font-size: 1.1rem;
@@ -58,21 +64,23 @@ header {
 
 .jumbotron-bike a {
   width: 11.4rem;
-  margin: 0 auto;
+  margin: 2.8rem 0 11.85rem 0;
   padding: 1.3rem 0;
   background-color: #399bd1;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
-.jumbotron a:hover {
+.jumbotron a:hover,
+#trouble a:hover {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
 }
 
-.jumbotron a:active{
+.jumbotron a:active,
+#trouble a:active {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
 
-/* Featured project section */
+/* Featured project and projects section */
 #featured-project h2,
 #projects h2 {
   font-size: 1.7rem;
@@ -89,4 +97,32 @@ header {
 #featured-project ul li {
   color: rgba(0, 0, 0, 0.7);
   line-height: 1.4;
+}
+
+#projects {
+  margin-bottom: 5.85rem;
+}
+
+/* Trouble section */
+
+#trouble {
+  text-align: center;
+  background-color: #f3f3f3;
+}
+
+#trouble strong {
+  padding: 5.2rem 0 1.4rem 0;
+}
+
+#trouble p {
+  margin: 0 auto;;
+  width: 42rem;
+}
+
+#trouble a {
+  width: 11.4rem;
+  margin: 1.4rem 0 5.2rem 0;
+  padding: 1.3rem 0;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
