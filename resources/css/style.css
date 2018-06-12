@@ -37,6 +37,13 @@ header {
   background-color: inherit;
 }
 
+/*Media query - jumbotron*/
+@media only screen and (max-width: 767px) {
+  .navbar-header {
+    display: none;
+  }
+}
+
 /* Jumbotron section */
 .jumbotron-bike {
   text-align: center;
@@ -49,7 +56,7 @@ header {
 .jumbotron-bike h1 {
   padding: 11.85rem 0 0 0;
   font-family: Monoton;
-  font-size: 5.7rem;
+  font-size: 7.1rem;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
@@ -78,6 +85,13 @@ header {
 .jumbotron a:active,
 #trouble a:active {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+/*Media query - jumbotron*/
+@media only screen and (max-width: 767px) {
+  .jumbotron-bike h1 {
+    font-size: 5.7rem;
+  }
 }
 
 /* Featured project and projects section */
@@ -116,7 +130,7 @@ header {
 
 #trouble p {
   margin: 0 auto;;
-  width: 42rem;
+  max-width: 42rem;
 }
 
 #trouble a {
